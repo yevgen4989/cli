@@ -1,6 +1,6 @@
 {
-  "name": "@bitrix/cli",
-  "version": "3.3.5",
+  "name": "bitrix-cli-tools",
+  "version": "3.3.7",
   "description": "Bitrix CLI tools",
   "main": "./src/cli/bitrix.js",
   "engines": {
@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitrix-tools/cli.git"
+    "url": "https://github.com/yevgen4989/cli.git"
   },
-  "homepage": "https://github.com/bitrix-tools/cli#readme",
+  "homepage": "https://github.com/yevgen4989/cli#readme",
   "bugs": {
-    "url": "https://github.com/bitrix-tools/cli/issues"
+    "url": "https://github.com/yevgen4989/cli/issues"
   },
   "author": "Bitrix",
   "license": "MIT",
