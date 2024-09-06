@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const pkg = require('../package.json');
+const command = require('../dist/process/command');
+const fs = require('fs');
+const path = require('path');
+
+const commandHandler = path.resolve(__dirname, `../dist/bitrix.${command}.js`);
+
+if (fs.existsSync(commandHandler)) {
+	require(commandHandler)();
+} else {
+	require('../dist/bitrix.unhandled')();
+}
